@@ -109,7 +109,7 @@ def getComputerMove(board, compLetter):
             if isWinner(boardCopy, playerLetter):
                 return i
 
-        # try to take one of the corners if they are free
+    # try to take one of the corners if they are free
     move = chooseRandomMoveFromList(board, [1, 3, 7, 9])
     if move != None:
         return move
@@ -157,7 +157,6 @@ while True:
                     turn = "computer"
         else:
             # computer's turn
-            print("5")
             move = getComputerMove(theBoard, compLetter)
             makeMove(theBoard, compLetter, move)
             if isWinner(theBoard, compLetter):
