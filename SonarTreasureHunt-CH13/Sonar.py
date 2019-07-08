@@ -19,6 +19,7 @@ def getNewBoard():
     return board
 
 
+
 # Draw the board data structure.
 def drawBoard(board):
     tensDigitsLine = ' '  # Initial space for the numbers down the left side of the board
