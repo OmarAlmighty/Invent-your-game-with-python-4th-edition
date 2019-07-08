@@ -1,5 +1,6 @@
 import random
 
+
 NUM_DIGIT = 3
 MAX_GUESS = 10
 
